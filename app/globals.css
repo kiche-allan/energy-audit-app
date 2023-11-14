@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* styles.css */
+
+.dashboard-container {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: #fff;
+  color: #3498db;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.recent-audits {
+  margin-top: 20px;
+}
+
+.recent-audits h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recent-audits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-audits li {
+  margin-bottom: 10px;
+}
+
+.energy-chart {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* styles.css */
+
+.analytics-container {
+  background-color: #fff; /* White background color */
+  color: #333; /* Dark text color */
+  padding: 20px;
+}
+
+.analytics-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.energy-chart {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.savings-analysis {
+  margin-top: 20px;
+}
+
+.savings-analysis h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
