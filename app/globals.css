@@ -25,6 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+<<<<<<< HEAD
 
 /* styles.css */
 
@@ -109,3 +110,5 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
 }
+=======
+>>>>>>> refs/remotes/origin/master

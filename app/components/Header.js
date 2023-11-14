@@ -87,14 +87,24 @@ export default function Header() {
             <a href="#" className="text-white my-4 md:my-2">
               Recommendations
             </a>
+<<<<<<< HEAD
             <a href="/dashboard" className="text-white my-4 md:my-2">
               Dashboard
+=======
+            <a href="#" className="text-white my-4 md:my-2">
+              Dahsboard
+>>>>>>> refs/remotes/origin/master
             </a>
             <a href="#" className="text-white my-4 md:my-2">
               Login
             </a>
+<<<<<<< HEAD
             <a href="/analytics" className="text-white my-4 md:my-2">
               Analytics
+=======
+            <a href="#" className="text-white my-4 md:my-2">
+              Profile
+>>>>>>> refs/remotes/origin/master
             </a>
           </nav>
         </div>
